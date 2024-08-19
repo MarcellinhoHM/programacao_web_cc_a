@@ -1,13 +1,35 @@
-#title {
-    color: violet;
+* {
+    margin: 0px;
+}
+
+#titulo {
+    color: red;
     text-align: center;
 }
 
-.entradas-eduarde {
+input {
+    display: block;
+    margin: 1px;
+}
+
+.entradas-formulario {
     border: 1px solid;
-    text-align: center;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px;
 }
 
-.eu{
+.rodape {
+    background-color: #ccc;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
